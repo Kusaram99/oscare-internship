@@ -544,7 +544,6 @@ nav {
     display: flex;
     flex-direction: column;
     width: 779px;
-    height: 275px;
     gap: 32px;
 }
 
