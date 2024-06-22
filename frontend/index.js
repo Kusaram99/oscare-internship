@@ -62,7 +62,8 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         isValid = false;
         phone.style.border = '1px solid red';
     } else if (!/^\d{10}$/.test(parseInt(phone.value))) {
-        phone.style.border = '1px solid red';
+        isValid = false;
+        phone.style.border = '1px solid red'; 
     } else {
         phone.style.border = '1px solid #C7C7C7';
     }
